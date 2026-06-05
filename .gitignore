@@ -1,0 +1,31 @@
+# Dependencies
+**/node_modules/
+
+# Local env files (MUST NOT be committed to git)
+**/.env
+**/.env.local
+**/.env.production
+**/.env.development
+
+# Next.js build outputs
+**/.next/
+**/out/
+
+# Production builds
+**/build/
+
+# IDE/System files
+.idea/
+.vscode/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Debug logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
